@@ -1,0 +1,25 @@
+test:
+    name: basic-contract-benchmark
+    description: test benchmark
+    workers:
+      number: 2
+    rounds:
+      - label: verify
+        description: verify benchmark
+        txDuration: 30
+        rateControl:
+          type: fixed-load
+          opts:
+            transactionLoad: 2
+        workload:
+          module: workload/verify.js
+          arguments:
+            contractId: evidence
+
+monitors:
+  resource:
+  - module: docker
+    options:
+      interval: 5
+      containers:
+      - all

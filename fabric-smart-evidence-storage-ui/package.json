@@ -1,0 +1,38 @@
+{
+  "name": "fabric-smart-evidence-storage-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "2",
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.6.2",
+    "crypto-js": "^4.2.0",
+    "echarts": "^5.6.0",
+    "element-plus": "^2.4.2",
+    "ipfs-http-client": "^60.0.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.4",
+    "vue-echarts": "^6.7.3",
+    "vue-router": "^4.2.5",
+    "vue3-clipboard": "^1.0.0"
+  },
+  "devDependencies": {
+    "@unocss/preset-attributify": "^0.57.7",
+    "@unocss/preset-uno": "^0.57.7",
+    "@unocss/transformer-directives": "^0.57.7",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "sass": "^1.69.5",
+    "unocss": "^0.57.7",
+    "unplugin-auto-import": "^0.17.1",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.4"
+  }
+}
